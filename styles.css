@@ -1,0 +1,249 @@
+body{
+  max-width: 100%;
+  text-align: center;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #F7F5EB;
+}
+h4{
+  font-family: 'Miriam Libre', sans-serif;
+  padding-top: 5px;
+  font-weight: bold;
+}
+
+/* Home */
+
+.big-heading-1{
+  font-size: 95px;
+  margin: 50px auto 0 auto;
+  padding-top: 60px;
+  color: #205E61;
+  font-family: 'Tangerine', cursive;
+}
+.big-heading{
+  font-size: 27px;
+  font-family: "Miriam Libre", sans-serif;
+  animation: blinker 4s linear infinite;
+}
+@keyframes blinker {
+  50%{
+    opacity: 0;
+  }
+}
+
+/* Navbar */
+
+#title{
+  text-align: center;
+  background-color: #82AAE3;
+  color: #fff;
+  padding: auto;
+  position: relative;
+}
+.title-image{
+  width: 70%;
+  transform: rotate(20deg);
+  position: relative;
+  right: 110px;
+}
+.title-image:hover{
+  transform: scale(1.2);
+  transition: transform 2s;
+}
+.navbar{
+  padding: auto;
+  background-color: #82AAE3;
+  color: #fff;
+  font-size: 22px;
+}
+.navbar-brand{
+  font-size: 22px;
+}
+.nav-link{
+  color: #fff;
+}
+
+/* Media Query */
+
+@media(max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    margin: auto;
+  }
+  .profile{
+    text-align: center;
+  }
+
+}
+
+/* Description */
+
+.profile{
+  text-align: left;
+  padding-left: 70px;
+  padding-top: 40px;
+  font-size: 30px;
+  font-family: 'Jua', sans-serif;
+}
+
+/* Academic details */
+
+.academic-details{
+  padding-top: 80px;
+  padding-bottom: 60px;
+  text-align: center;
+  color: #332C39;
+}
+.sub-heading-1{
+  color: #205E61;
+  text-align: center;
+  padding-bottom: 40px;
+  margin-bottom: 25px;
+
+}
+.academic-image{
+  width: 25%;
+  border-radius: 70%;
+  margin: 20px;
+}
+.academic-image-1{
+  width: 28%;
+  border-radius: 70%;
+  margin: 20px;
+}
+.academy{
+  font-size: 22px;
+  font-weight: normal;
+  font-family: 'Jua', sans-serif;
+}
+/* Carousal button */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: #817777;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 50%;
+  border: none;
+}
+.carousel-control-prev-icon {
+  margin-left: -30px;
+}
+.carousel-control-next-icon {
+  margin-right: -30px;
+}
+
+/* My skills */
+
+.My-Skills{
+  background-color: #82AAE3;
+}
+.skill-img:hover{
+  transform: scale(1.2);
+  transition: transform 2s;
+}
+.features1{
+  padding: 5%;
+  border: 2px solid grey;
+  border-radius: 50%;
+  text-align: center;
+  color: #82AAE3;
+  background-color: #E9E8E8;
+}
+.sub-heading-2{
+  color: #205E61;
+  text-align: center;
+  padding-bottom: 40px;
+  margin-bottom: 25px;
+}
+#skills{
+  padding: 7% 15%;
+  position: relative;
+}
+@media screen and(max-width: 1100px) {
+  .features1{
+    width: 26%;
+  }
+  .h4{
+    font-size: 12pt;
+  }
+
+}
+/* Button(Contact me) */
+.btn {
+  background: #82AAE3;
+  background-image: -webkit-linear-gradient(top, #82AAE3, #2980b9);
+  background-image: -moz-linear-gradient(top, #82AAE3, #2980b9);
+  background-image: -ms-linear-gradient(top, #82AAE3, #2980b9);
+  background-image: -o-linear-gradient(top, #82AAE3, #2980b9);
+  background-image: linear-gradient(to bottom, #82AAE3, #2980b9);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Arial;
+  color: #ded7de;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #28719e;
+  background-image: -webkit-linear-gradient(top, #28719e, #3a95d1);
+  background-image: -moz-linear-gradient(top, #28719e, #3a95d1);
+  background-image: -ms-linear-gradient(top, #28719e, #3a95d1);
+  background-image: -o-linear-gradient(top, #28719e, #3a95d1);
+  background-image: linear-gradient(to bottom, #28719e, #3a95d1);
+  text-decoration: none;
+}
+
+/* bottom Container */
+.contact-me{
+  margin: 40px auto 40px;
+  width: 49%;
+  color: #332C39;
+  padding-top: 30px;
+  padding-bottom: 30px;;
+}
+
+/* Contact */
+#contact{
+  line-height: 1.5;
+}
+.sub-heading-3{
+  color: #205E61;
+  text-align: center;
+  padding-bottom: 18px;
+  margin-bottom: 25px;
+}
+.talk{
+  font-size: 23px;
+  font-family: 'Jua', sans-serif;
+  margin: 40px auto 50px;
+}
+/* Bottom Container */
+.bottom-container{
+  background-color: #82AAE3;
+  line-height: 2;
+  padding: 40px 0 20px;
+  color: #fff;
+  text-align: center;
+}
+.footer-link{
+  margin: 10px 20px;
+  font-size: 18px;
+}
+.copyright{
+  margin-bottom: 0px;
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}
+
+#contact, #about{
+  background-color: #F7F5EB;
+}
